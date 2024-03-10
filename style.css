@@ -2,10 +2,51 @@
 html { box-sizing: border-box; }
 *, ::after, ::before { box-sizing: inherit; }
 
+body {
+    color: #282425;
+    background-color: #b2bec3;
+    font-family: 'Nunito';
+    font-size: 18px;
+}
+
+img {
+    width: 150px;
+    border: 3px solid white;
+    border-radius: 50%;
+}
+
+
+h1 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #d63031;
+    margin: 30px 0;
+}
+
+p {
+    font-weight: 400;
+}
+
+.box {
+    background-color: white;
+    border: 1px solid white;
+    padding: 30px;
+    width: 550px;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.7);
+}
+
+.posledni {
+    margin-bottom: 30px;
+}
+
+
 /*
 BARVY:
 šedá na pozadí stránky:		 #b2bec3
-červená na hlavní nadpis:  #d63031
+červená na hlavní nadpi
+s:  #d63031
 
 tlačítko Twitter:					 #1da1f2
 tlačítko Twitter aktivní:	 #0b7bc1

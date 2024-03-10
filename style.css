@@ -28,7 +28,7 @@ p {
     text-align: justify;
 }
 
-.box {
+.vizitka {
     background-color: white;
     border: 1px solid white;
     padding: 30px;
@@ -43,7 +43,8 @@ p {
     margin-bottom: 30px;
 }
 
-a {
+
+.button {
     display: block;
     color: white;
     text-transform: uppercase;
@@ -51,16 +52,29 @@ a {
     font-weight: bold;
     padding: 10px;
     border-radius: 5px;
+    text-decoration: none;
 }
 
-.odkaz1 {
+.twitter {
     background-color: #1da1f2;
     margin-bottom: 5px;
 }
 
-.odkaz2 {
+.facebook {
     background-color: #3b5998;
     margin-top: 5px;
+}
+
+.twitter a:hover, 
+.twitter a:focus,
+.twitter a:active {
+    background-color: #0b7bc1;
+}
+
+.facebook a:hover, 
+.facebook a:focus,
+.facebook a:active {
+    background-color: #2b406e;
 }
 
 
